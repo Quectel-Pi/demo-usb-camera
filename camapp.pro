@@ -1,0 +1,9 @@
+QT += gui quick qml
+CONFIG += c++11
+CONFIG += link_pkgconfig
+TEMPLATE = app
+TARGET = camapp
+SOURCES += src/main.cpp src/CameraController.cpp src/CameraEnumerator.cpp src/CameraRecorder.cpp src/CameraPreview.cpp
+HEADERS += src/CameraController.h src/CameraEnumerator.h src/CameraRecorder.h src/CameraDevice.h src/CameraPreview.h
+RESOURCES += qml/qml.qrc
+PKGCONFIG += gstreamer-1.0 gstreamer-app-1.0 gstreamer-video-1.0

@@ -1,0 +1,42 @@
+# qmake / Make
+Makefile
+.qmake.stash
+.qmake.cache
+*.pro.user
+*.pro.user.*
+
+# Build directories
+build/
+build-*/
+debug/
+release/
+
+# Object and generated files
+*.o
+*.obj
+moc_*
+qrc_*.cpp
+ui_*.h
+
+# Binaries
+camapp
+*.so
+*.a
+*.dll
+*.dylib
+*.exe
+
+# Qt Creator / IDE
+*.autosave
+*.user
+*.creator.user
+
+# Logs and local runtime files
+*.log
+core
+core.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
