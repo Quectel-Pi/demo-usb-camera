@@ -19,7 +19,7 @@ USB Camera is a Linux desktop USB camera application built with Qt Quick/QML and
 - C++11, Qt, GStreamer 1.0, and Linux V4L2
 - qmake, make, and pkg-config
 
-See [ARCHITECTURE.md](ARCHITECTURE.md) for the detailed design and data flow.
+See [ARCHITECTURE.en.md](ARCHITECTURE.en.md) for the detailed design and data flow.
 
 ## Requirements
 
