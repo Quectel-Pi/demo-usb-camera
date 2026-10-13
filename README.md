@@ -1,6 +1,9 @@
-# Camera Studio
+# USB Camera
 
-Camera Studio is a Linux desktop USB camera application built with Qt Quick/QML and C++. It supports live preview, JPG photo capture, MP4 video recording, multiple-camera selection, device rescanning, and configurable H.264 encoders.
+[中文](README.zh-CN.md)
+
+
+USB Camera is a Linux desktop USB camera application built with Qt Quick/QML and C++. It supports live preview, JPG photo capture, MP4 video recording, multiple-camera selection, device rescanning, and configurable H.264 encoders.
 
 ## Features
 
@@ -76,4 +79,6 @@ gst-inspect-1.0 mpph264enc
 ## Source Tree Cleanup
 
 Do not commit build products such as `camapp`, `Makefile`, `.qmake.stash`, object files, `moc_*`, or generated `qrc_*.cpp` files. They are ignored by `.gitignore`.
+
+
 
