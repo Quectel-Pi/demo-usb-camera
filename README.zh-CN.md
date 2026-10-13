@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-Camera Studio 是一个基于 Qt Quick/QML 和 C++ 的 Linux 桌面相机应用，支持实时预览、拍照、录像、多摄像头选择、设备重扫和错误提示。
+USB Camera 是一个基于 Qt Quick/QML 和 C++ 的 Linux 桌面相机应用，支持实时预览、拍照、录像、多摄像头选择、设备重扫和错误提示。
 
 ## 功能
 
