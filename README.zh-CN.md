@@ -21,7 +21,6 @@ USB Camera 是一个基于 Qt Quick/QML 和 C++ 的 Linux 桌面相机应用，�
 - 后端：C++11 / Qt / GStreamer 1.0 / Linux V4L2
 - 构建：qmake / make / pkg-config
 
-详细架构请见 [ARCHITECTURE.md](ARCHITECTURE.md)。
 
 ## 硬件要求
 
